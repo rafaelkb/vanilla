@@ -57,50 +57,85 @@ tile_page_creatures
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:384:704]
 
-[TILE_PAGE:DWARF_BODY]
-	[FILE:images/dwarf_body.png]
-	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:288:416]
 
-[TILE_PAGE:DWARF_HAIR_STRAIGHT]
-	[FILE:images/dwarf_hair_straight.png]
+
+ DWARF
+
+
+[TILE_PAGE:DWARF_BODY_SPECIAL]
+	[FILE:images/dwarf/dwarf_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:672]
+
+[TILE_PAGE:DWARF_BODY]
+	[FILE:images/dwarf/dwarf_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:864]
+
+[TILE_PAGE:DWARF_HAIR_STRAIGHT_FRONT]
+	[FILE:images/dwarf/dwarf_hair_straight_front.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:256:1056]
 
-[TILE_PAGE:DWARF_HAIR_CURLY]
-	[FILE:images/dwarf_hair_curly.png]
+[TILE_PAGE:DWARF_HAIR_CURLY_BACK]
+	[FILE:images/dwarf/dwarf_hair_curly_back.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:256:608]
+	[PAGE_DIM_PIXELS:256:1056]
+
+[TILE_PAGE:DWARF_HAIR_CURLY_FRONT]
+	[FILE:images/dwarf/dwarf_hair_curly_front.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:1056]
+
+[TILE_PAGE:DWARF_HAIR_BEARD]
+	[FILE:images/dwarf/dwarf_hair_beard.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:DWARF_HAIR_MOUSTACHE]
+	[FILE:images/dwarf/dwarf_hair_moustache.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
 
 [TILE_PAGE:DWARF_CLOTHING]
-	[FILE:images/dwarf_clothes.png]
+	[FILE:images/dwarf/dwarf_clothes.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:576:864]
+	[PAGE_DIM_PIXELS:608:1728]
 
 [TILE_PAGE:DWARF_ARMOR]
-	[FILE:images/dwarf_armor.png]
+	[FILE:images/dwarf/dwarf_armor.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:416:800]
 
-[TILE_PAGE:DWARF_WIELDABLES]
-	[FILE:images/dwarf_wieldables.png]
+[TILE_PAGE:DWARF_WIELDABLES_RIGHT]
+	[FILE:images/dwarf/dwarf_wieldables_right.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:960:864]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:DWARF_WIELDABLES_LEFT]
+	[FILE:images/dwarf/dwarf_wieldables_left.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+
+ HUMAN
+
+
 
 [TILE_PAGE:HUMAN_BODY]
 	[FILE:images/human_body.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:288:416]
+	[PAGE_DIM_PIXELS:288:864]
 
 [TILE_PAGE:HUMAN_HAIR_STRAIGHT]
 	[FILE:images/human_hair_straight.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:256:1056]
+	[PAGE_DIM_PIXELS:256:1184]
 
 [TILE_PAGE:HUMAN_HAIR_CURLY]
 	[FILE:images/human_hair_curly.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:256:608]
+	[PAGE_DIM_PIXELS:256:736]
 
 [TILE_PAGE:HUMAN_CLOTHING]
 	[FILE:images/human_clothes.png]
@@ -116,11 +151,14 @@ tile_page_creatures
 	[FILE:images/human_wieldables.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:960:864]
+	
+	GOBLIN
+	
 
 [TILE_PAGE:GOBLIN_BODY]
 	[FILE:images/goblin_body.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:288:416]
+	[PAGE_DIM_PIXELS:288:864]
 
 [TILE_PAGE:GOBLIN_CLOTHING]
 	[FILE:images/goblin_clothes.png]
@@ -136,41 +174,67 @@ tile_page_creatures
 	[FILE:images/goblin_wieldables.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:960:864]
+	
+	ELF
+	
+[TILE_PAGE:ELF_BODY_SPECIAL]
+	[FILE:images/ELF/elf_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:672]
 
 [TILE_PAGE:ELF_BODY]
-	[FILE:images/elf_body.png]
+	[FILE:images/ELF/ELF_body.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:288:416]
+	[PAGE_DIM_PIXELS:288:864]
 
-[TILE_PAGE:ELF_HAIR_STRAIGHT]
-	[FILE:images/elf_hair.png]
+[TILE_PAGE:ELF_HAIR_STRAIGHT_FRONT]
+	[FILE:images/ELF/ELF_hair_straight_front.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:256:1056]
 
-[TILE_PAGE:ELF_HAIR_CURLY]
-	[FILE:images/elf_hair_curly.png]
+[TILE_PAGE:ELF_HAIR_CURLY_BACK]
+	[FILE:images/ELF/ELF_hair_curly_back.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:256:608]
+	[PAGE_DIM_PIXELS:256:1056]
+
+[TILE_PAGE:ELF_HAIR_CURLY_FRONT]
+	[FILE:images/ELF/ELF_hair_curly_front.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:1056]
+
+[TILE_PAGE:ELF_HAIR_BEARD]
+	[FILE:images/ELF/ELF_hair_beard.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:ELF_HAIR_MOUSTACHE]
+	[FILE:images/ELF/ELF_hair_moustache.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
 
 [TILE_PAGE:ELF_CLOTHING]
-	[FILE:images/elf_clothes.png]
+	[FILE:images/ELF/ELF_clothes.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:576:1728]
+	[PAGE_DIM_PIXELS:608:1728]
 
 [TILE_PAGE:ELF_ARMOR]
-	[FILE:images/elf_armor.png]
+	[FILE:images/ELF/ELF_armor.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:416:768]
+	[PAGE_DIM_PIXELS:416:800]
 
 [TILE_PAGE:ELF_WIELDABLES]
-	[FILE:images/elf_wieldables.png]
+	[FILE:images/ELF/ELF_wieldables.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:960:864]
+
+	
+	KOBOLD
+	
 
 [TILE_PAGE:KOBOLD_BODY]
 	[FILE:images/kobold_body.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:288:416]
+	[PAGE_DIM_PIXELS:288:864]
 
 [TILE_PAGE:KOBOLD_CLOTHING]
 	[FILE:images/kobold_clothes.png]
@@ -186,6 +250,9 @@ tile_page_creatures
 	[FILE:images/kobold_wieldables.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:960:864]
+	
+	
+	
 
 [TILE_PAGE:CREATURES_MEGABEAST]
     [FILE:images/creatures_megabeast.png]
@@ -341,16 +408,6 @@ tile_page_creatures
 	[FILE:images/creatures_underground_large_statues.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:32:384]
-
-[TILE_PAGE:DWARF_BODY_SPECIAL]
-	[FILE:images/dwarf_body_special.png]
-	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:288:672]
-
-[TILE_PAGE:ELF_BODY_SPECIAL]
-	[FILE:images/elf_body_special.png]
-	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:288:672]
 
 [TILE_PAGE:GOBLIN_BODY_SPECIAL]
 	[FILE:images/goblin_body_special.png]
