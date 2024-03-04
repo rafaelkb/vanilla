@@ -178,54 +178,59 @@ tile_page_creatures
 	ELF
 	
 [TILE_PAGE:ELF_BODY_SPECIAL]
-	[FILE:images/ELF/elf_body_special.png]
+	[FILE:images/elf/elf_body_special.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:288:672]
 
 [TILE_PAGE:ELF_BODY]
-	[FILE:images/ELF/ELF_body.png]
+	[FILE:images/elf/elf_body.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:288:864]
 
 [TILE_PAGE:ELF_HAIR_STRAIGHT_FRONT]
-	[FILE:images/ELF/ELF_hair_straight_front.png]
+	[FILE:images/elf/elf_hair_straight_front.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:256:1056]
 
 [TILE_PAGE:ELF_HAIR_CURLY_BACK]
-	[FILE:images/ELF/ELF_hair_curly_back.png]
+	[FILE:images/elf/elf_hair_curly_back.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:256:1056]
 
 [TILE_PAGE:ELF_HAIR_CURLY_FRONT]
-	[FILE:images/ELF/ELF_hair_curly_front.png]
+	[FILE:images/elf/elf_hair_curly_front.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:256:1056]
 
 [TILE_PAGE:ELF_HAIR_BEARD]
-	[FILE:images/ELF/ELF_hair_beard.png]
+	[FILE:images/elf/elf_hair_beard.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:256:448]
 
 [TILE_PAGE:ELF_HAIR_MOUSTACHE]
-	[FILE:images/ELF/ELF_hair_moustache.png]
+	[FILE:images/elf/elf_hair_moustache.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:256:448]
 
 [TILE_PAGE:ELF_CLOTHING]
-	[FILE:images/ELF/ELF_clothes.png]
+	[FILE:images/elf/elf_clothes.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:608:1728]
 
 [TILE_PAGE:ELF_ARMOR]
-	[FILE:images/ELF/ELF_armor.png]
+	[FILE:images/elf/elf_armor.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:416:800]
 
-[TILE_PAGE:ELF_WIELDABLES]
-	[FILE:images/ELF/ELF_wieldables.png]
+[TILE_PAGE:ELF_WIELDABLES_RIGHT]
+	[FILE:images/elf/elf_wieldables_right.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:960:864]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:ELF_WIELDABLES_LEFT]
+	[FILE:images/elf/elf_wieldables_left.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
 
 	
 	KOBOLD
